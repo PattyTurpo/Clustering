@@ -1,0 +1,4 @@
+,n_clusters,% ruido,ARI,V-measure,Homogeneidad,Completitud,Silhouette,Davies-Bouldin,Calinski-Harabasz
+K-means,2.0,0.0,0.261,0.198,0.198,0.198,0.487,0.785,730.114
+DBSCAN,2.0,0.0,1.0,1.0,1.0,1.0,0.332,1.153,331.338
+Spectral,2.0,0.0,1.0,1.0,1.0,1.0,0.332,1.153,331.338
