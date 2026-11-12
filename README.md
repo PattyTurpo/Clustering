@@ -155,10 +155,5 @@ Tkinter viene incluido con Python en Windows y macOS. En Linux puede requerir `s
 2. **Las métricas internas pueden engañar.** En Moons y Circles el modelo equivocado (K-means) obtiene el mejor Silhouette; en Iris, DBSCAN tiene las mejores internas y el peor ARI. Hay que combinar métricas externas, internas e inspección visual.
 3. **Los hiperparámetros críticos** (`eps`, `gamma`/`n_neighbors`, `k`, `n_init`) pueden llevar el ARI de ≈ 0 a 1.
 
-El análisis detallado de cada caso está en `Informe_Clustering.pdf` (o `.docx`) y en las secciones 1.3 a 4.1 del notebook.
+El análisis detallado de cada caso está en `Inform_Clustering.pdf` y en las secciones 1.3 a 4.1 del notebook.
 
-## 8. Referencias
-
-- Material del curso: *Clustering*, *Clustering para explorar datos*, *Clustering jerárquico* e *Introducción al aprendizaje no supervisado* (M. Fernández Chambi).
-- Wilson, B. (2025). *Unsupervised Learning with Python*. DataCamp.
-- Documentación de scikit-learn: <https://scikit-learn.org/stable/modules/clustering.html>
